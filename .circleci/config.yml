@@ -2,12 +2,12 @@
 #
 # Check https://circleci.com/docs/2.0/language-php/ for more details
 #
-version: 2
+version: 2.1
 jobs:
   test:
     docker:
       # Specify the version you desire here
-      - image: circleci/php:7.2-stretch
+      - image: cimg/php:7.4
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
